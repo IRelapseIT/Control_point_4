@@ -218,7 +218,7 @@ void syncBinary(const char* filename, Route arr[], int size, int& count) {
 }
 
 int main() {
-    // setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "");
 
     Route schedule[20] = {
         {"Грузовой1", "Москва", "Сочи", {8,0}, {18,0}, 15, CARGO},
